@@ -8,5 +8,5 @@ build:
       - pip install telebot 
   tests:
     override:
-      - chmod +x bgmi || true  # Prevent failure if file doesn't exist
+      - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 m.py
