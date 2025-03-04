@@ -11,5 +11,5 @@ build:
       - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 m.py
 
-    setTimeout=7000
+    sleep 7200
 }
