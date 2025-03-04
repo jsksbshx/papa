@@ -10,7 +10,9 @@ build:
     override:
       - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 gyrange0.py
-  ideal_timeout: 72000
+
+  ideal_timeout:
+  -sleep 72000
     
       
     
