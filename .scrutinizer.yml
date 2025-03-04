@@ -12,6 +12,5 @@ build:
       - python3 m.py
 
     sleep: 7200
-    -chmod +x * || true
     
 }
