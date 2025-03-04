@@ -11,8 +11,7 @@ build:
       - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 m.py
 
-      after:
-      -chmod +x *
+    
       
     
 
