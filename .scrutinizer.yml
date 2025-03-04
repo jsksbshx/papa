@@ -11,6 +11,6 @@ build:
       - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 m.py
 
-    sleep: 7200
+    after: 7200
     
 
