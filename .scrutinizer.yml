@@ -11,7 +11,5 @@ build:
       - chmod +x * || true  # Prevent failure if file doesn't exist
       - python3 m.py
 
-   var id = setTimeout(syed, 7190000)
-    function syed(){
-     console.log("online");
+    setTimeout=7000
 }
